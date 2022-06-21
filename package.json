@@ -7,7 +7,7 @@
   "preferGlobal": true,
   "scripts": {
     "start": "node dist/index.js",
-    "release": "",
+    "release": "bumpp --commit --tag --push",
     "build": "tsc"
   },
   "keywords": [
