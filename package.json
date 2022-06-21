@@ -2,7 +2,8 @@
   "name": "vercel.json",
   "version": "0.0.5-beta.2",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=14.0.0",
+    "pnpm": ">=7.0.0"
   },
   "description": "Quickly scaffold a vercel.json configuration file.",
   "main": "dist/index.js",
