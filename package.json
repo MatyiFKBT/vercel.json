@@ -1,6 +1,6 @@
 {
-  "name": "vercel.json-dev",
-  "version": "0.0.2",
+  "name": "vercel.json",
+  "version": "0.0.0",
   "description": "Quickly scaffold a vercel.json configuration file.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
@@ -20,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/MatyiFKBT/vercel.json/issues"
   },
+  "badges": [],
   "homepage": "https://github.com/MatyiFKBT/vercel.json#readme",
   "devDependencies": {
     "@types/node": "^18.0.0",
