@@ -4,7 +4,6 @@
   "description": "Quickly scaffold a vercel.json configuration file.",
   "main": "dist/index.js",
   "bin": "dist/index.js",
-  "preferGlobal": true,
   "scripts": {
     "start": "node dist/index.js",
     "release": "bumpp --commit --tag --push",
