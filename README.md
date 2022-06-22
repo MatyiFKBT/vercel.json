@@ -10,7 +10,7 @@ See [vercel.json](src/vercel.json)
 
 ```bash
 npm install -g pnpm
-nx vercel.json
+pnpm dlx vercel.json
 ```
 
 ## Known Issues
