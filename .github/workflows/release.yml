@@ -26,12 +26,16 @@ jobs:
           run_install: false
 
       - name: Setup ni
-        run: npm i -g @antfu/ni
+        run: npm i -g @antfu/ni npe
 
       - name: Install dependencies
         run: nci
 
       - run: nr build
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+      - run: npe name create-vercel.json
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
